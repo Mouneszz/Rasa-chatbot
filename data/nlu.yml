@@ -1,0 +1,574 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+  
+- intent: bot_identity
+  examples: |
+    - Who are you?
+    - What is your name?
+    - Can you introduce yourself?
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: acronym_bit
+  examples: |
+    - What does BIT stand for?
+    - Can you tell me the full form of BIT?
+    - Explain the acronym BIT.
+    - What is the meaning of BIT?
+- intent: about_bit
+  examples: |
+    - Tell me about Bannari Amman Institute of Technology.
+    - What can you tell me about BIT?
+    - Information about Bannari Amman Institute of Technology.
+    - Give me details on BIT.
+- intent: bit_infrastructure
+  examples: |
+    - Can you give more details about BIT's infrastructure?
+    - Tell me about BIT's campus facilities.
+    - What is the infrastructure like at BIT?
+    - Describe the facilities at Bannari Amman Institute of Technology.
+- intent: bit_location
+  examples: |
+    - Where can I find BIT?
+    - What's the address of Bannari Amman Institute of Technology?
+    - Could you tell me where BIT is located?
+    - I'm curious about the location of BIT.
+- intent: bit_education_features
+  examples: |
+    - What makes BIT's education environment unique?
+    - Can you describe the educational atmosphere at BIT?
+    - Tell me more about BIT's approach to education.
+    - What are the standout features of learning at BIT?
+- intent: bit_programs
+  examples: |
+    - What academic programs does BIT offer?
+    - Could you list the courses available at Bannari Amman Institute of Technology?
+    - I'm interested in knowing the types of programs offered by BIT.
+    - Tell me about the curriculum at BIT.
+- intent: bit_reputation
+  examples: |
+    - What is BIT's reputation in terms of education quality?
+    - How is BIT perceived in terms of education quality?
+    - Tell me about BIT's educational reputation.
+
+- intent: bit_achievements
+  examples: |
+    - Can you share any notable achievements of BIT?
+    - Tell me about BIT's accomplishments.
+    - What awards or recognition has BIT received?
+
+- intent: bit_contribution
+  examples: |
+    - How does BIT contribute to the education sector?
+    - In what ways does BIT impact the education sector?
+    - Tell me about BIT's role in education.
+
+- intent: bit_infrastructure
+  examples: |
+    - What is the infrastructure like at Bannari Amman Institute of Technology?
+    - Can you describe BIT's campus facilities?
+    - Tell me about the physical resources at BIT.
+
+- intent: bit_learning_resources
+  examples: |
+    - What learning resources are available at BIT Erode's infrastructure?
+    - Tell me about the study materials at BIT.
+    - What resources can students access for learning?
+
+- intent: bit_lab_facilities
+  examples: |
+    - What facilities can be found in the labs at Bannari Amman Institute of Technology?
+    - Describe the lab facilities at BIT.
+    - Tell me about the labs at BIT.
+
+- intent: bit_accommodation
+  examples: |
+    - Does BIT offer accommodation options?
+    - Can you tell me about the hostel facilities at BIT?
+    - Where can students stay at BIT?
+
+- intent: bit_additional_facilities
+  examples: |
+    - What additional facilities are accessible to students and faculty at BIT Erode?
+    - Tell me about the extra amenities at BIT.
+    - What services are provided to the BIT community?
+
+- intent: bit_admissions_2023
+  examples: |
+    - Is BIT currently accepting admissions for 2023?
+    - Can I apply for BIT in 2023?
+    - When are the admissions open for 2023 at BIT?
+
+- intent: bit_placements_2023
+  examples: |
+    - Have the placements for 2023 been announced by BIT?
+    - What's the status of placements for 2023 at BIT?
+    - Tell me about the 2023 placement results at BIT.
+
+- intent: bit_companies_2023
+  examples: |
+    - How many companies have visited the BIT campus for placements in 2023?
+    - Tell me about the companies that came for placements in 2023 at BIT.
+    - Can you provide information about the recruiters in 2023 at BIT?
+
+- intent: bit_highest_package_2023
+  examples: |
+    - What was the highest package offered during the 2023 placements at BIT?
+    - Tell me about the top salary package in the 2023 placements at BIT.
+    - What's the maximum salary package for 2023 placements at BIT?
+- intent: bit_placement_highest_package
+  examples: |
+    - What was the highest placement package offered at BIT in 2023?
+    - Can you tell me about the top salary package during BIT's 2023 placements?
+    - What was the maximum salary package in BIT's 2023 placements?
+
+- intent: bit_library_collection
+  examples: |
+    - How extensive is BIT's library collection?
+    - Tell me about the size of the library collection at Bannari Amman Institute of Technology.
+    - What's the volume of books in BIT's library?
+
+- intent: bit_library_resources
+  examples: |
+    - What variety of resources are available in the library at BIT?
+    - Can you describe the types of materials in BIT's library?
+    - Tell me about the resources I can find in the library.
+
+- intent: bit_library_video_courses
+  examples: |
+    - Are there any video courses available at BIT's library?
+    - Can I access video lectures at BIT's library?
+    - Tell me about multimedia learning options at BIT.
+
+- intent: bit_library_affiliations
+  examples: |
+    - What affiliations or memberships does BIT's library hold?
+    - Tell me about the library affiliations at Bannari Amman Institute of Technology.
+
+- intent: bit_boys_hostel_capacity
+  examples: |
+    - How many beds are available in the Boys Hostel at BIT?
+    - Tell me about the capacity of the Boys Hostel at Bannari Amman Institute of Technology.
+    - How many students can the Boys Hostel accommodate?
+
+- intent: bit_boys_hostel_room_types
+  examples: |
+    - What types of accommodations are available in the Boys Hostel at BIT?
+    - Tell me about the room options in the Boys Hostel at Bannari Amman Institute of Technology.
+    - Can you describe the rooms in the Boys Hostel?
+
+- intent: bit_girls_hostel_capacity
+  examples: |
+    - How many beds are available in the Girls Hostel at BIT?
+    - Tell me about the capacity of the Girls Hostel at Bannari Amman Institute of Technology.
+    - How many students can the Girls Hostel accommodate?
+
+- intent: bit_girls_hostel_room_types
+  examples: |
+    - What types of accommodations are available in the Girls Hostel at BIT?
+    - Tell me about the room options in the Girls Hostel at Bannari Amman Institute of Technology.
+    - Can you describe the rooms in the Girls Hostel?
+
+- intent: bit_engineering_labs
+  examples: |
+    - What labs are available for engineering disciplines at BIT?
+    - Tell me about the engineering labs at Bannari Amman Institute of Technology.
+    - Can you list the labs for engineering students at BIT?
+
+- intent: bit_specialized_engineering_labs
+  examples: |
+    - What specific labs are available for specialized engineering subjects?
+    - Tell me about the specialized engineering labs at Bannari Amman Institute of Technology.
+    - Can you list the labs for specific engineering disciplines at BIT?
+
+- intent: bit_communication_electronics_labs
+  examples: |
+    - Are there labs dedicated to subjects like communication and electronics at BIT?
+    - Tell me about the labs for communication and electronics at Bannari Amman Institute of Technology.
+    - Can you describe the labs for communication and electronics engineering?
+
+- intent: bit_mechanical_thermal_labs
+  examples: |
+    - Are there labs focused on mechanical and thermal engineering at BIT?
+    - Tell me about the labs for mechanical and thermal engineering at Bannari Amman Institute of Technology.
+    - Can you describe the labs for mechanical and thermal disciplines?
+
+- intent: bit_sports_facilities
+  examples: |
+    - What sports facilities are available at BIT?
+    - Tell me about the sports amenities at Bannari Amman Institute of Technology.
+    - Can you describe the sports facilities at BIT?
+
+- intent: bit_outdoor_sports
+  examples: |
+    - Are there outdoor sports options available on the campus?
+    - Tell me about the outdoor sports facilities at Bannari Amman Institute of Technology.
+    - Can students play outdoor sports at BIT?
+
+- intent: bit_indoor_sports
+  examples: |
+    - Are there indoor sports options available for students?
+    - Tell me about the indoor sports facilities at Bannari Amman Institute of Technology.
+    - Can students play indoor sports at BIT?
+
+- intent: bit_athletics_track
+  examples: |
+    - Is there a dedicated track for athletics at BIT?
+    - Tell me about the athletics track at Bannari Amman Institute of Technology.
+    - Can students practice athletics at BIT?
+
+- intent: bit_institution_type
+  examples: |
+    - What type of institution is Bannari Amman Institute of Technology?
+    - Tell me about the nature of Bannari Amman Institute of Technology as an educational institution.
+    - Is BIT a government or private college?
+
+- intent: bit_campus_location
+  examples: |
+    - Where is the campus of Bannari Amman Institute of Technology located?
+    - Tell me about the location of BIT's campus.
+    - Can you provide the address of Bannari Amman Institute of Technology?
+
+- intent: bit_campus_design
+  examples: |
+    - How is the campus designed to promote a conducive learning environment?
+    - Tell me about the architecture and layout of BIT's campus.
+    - Can you describe the campus design of Bannari Amman Institute of Technology?
+
+- intent: bit_campus_facilities
+  examples: |
+    - What facilities are available within the campus of Bannari Amman Institute of Technology?
+    - Tell me about the infrastructure and amenities on BIT's campus.
+    - Can you list the facilities at Bannari Amman Institute of Technology?
+
+- intent: bit_campus_amenities
+  examples: |
+    - Are there additional amenities and services available on the campus?
+    - Tell me about the extra services and conveniences provided at BIT's campus.
+    - Can you describe the amenities at Bannari Amman Institute of Technology?
+
+- intent: bit_overseas_education
+  examples: |
+    - What is the purpose of the Bureau of Overseas Education at Bannari Amman Institute of Technology?
+    - Tell me about the role of the Bureau of Overseas Education at BIT.
+    - Can you explain the services offered by the Bureau of Overseas Education?
+
+- intent: bit_code_circle_club
+  examples: |
+    - What is the goal of the Code Circle Club at BIT?
+    - Tell me about the objectives of the Code Circle Club at Bannari Amman Institute of Technology.
+    - Can you describe the activities of the Code Circle Club?
+- intent: club_community_service
+  examples: |
+    - What is the focus of the Community Service Club at Bannari Amman Institute of Technology?
+    - Tell me about the Community Service Club's objectives.
+    - What does the Community Service (COSE) Club do?
+    - Explain the purpose of the COSE Club.
+    
+- intent: club_entrepreneurship
+  examples: |
+    - What is the objective of the Entrepreneurship Club at BIT?
+    - Can you tell me about the Entrepreneurship Club's mission?
+    - What does the Entrepreneurship Club aim to achieve?
+    
+- intent: club_fine_arts
+  examples: |
+    - What is the purpose of the Fine Arts Club at Bannari Amman Institute of Technology?
+    - Tell me about the activities of the Fine Arts Club.
+    - Explain the goals of the Fine Arts Club.
+    
+- intent: club_green_eco_organisation
+  examples: |
+    - What activities does the Green Eco Organisation (GEO) Club organize?
+    - Tell me about the initiatives of the GEO Club.
+    - Explain the focus of the Green Eco Organisation Club.
+    
+- intent: club_great_minds
+  examples: |
+    - What is the focus of the Great Minds Club at Bannari Amman Institute of Technology?
+    - Tell me about the Great Minds Club's objectives.
+    - What are the goals of the Great Minds Club?
+    
+- intent: club_makkal_sindhanai_peravai
+  examples: |
+    - What is the mission of the Makkal Sindhanai Peravai (MSP) at BIT?
+    - Can you explain the purpose of the Makkal Sindhanai Peravai?
+    - What does the MSP Club aim to achieve?
+    
+- intent: club_language_excellence
+  examples: |
+    - How does the Language Excellence and Performance (LEAP) Club at BIT engage students?
+    - Tell me about the activities of the LEAP Club.
+    - What is the goal of the Language Excellence and Performance Club?
+    
+- intent: club_yoga
+  examples: |
+    - What is the goal of the Yoga Club at Bannari Amman Institute of Technology?
+    - Explain the mission of the Yoga Club.
+    - What are the objectives of the Yoga Club?
+    
+- intent: main_blocks_college
+  examples: |
+    - What are the main blocks in your college?
+    - Can you list the primary buildings in your college?
+    - Tell me about the major structures on your campus.
+    
+- intent: cafeteria_location_hostels
+  examples: |
+    - Where is the cafeteria located in relation to the hostels?
+    - Describe the cafeteria's position with respect to the hostels.
+    - Can you tell me where I can find the cafeteria?
+    
+- intent: mini_cafes_block
+  examples: |
+    - Which block is home to the Mini cafes?
+    - Tell me in which block I can find the Mini cafes.
+    - Where are the Mini cafes located on campus?
+    
+- intent: bit_gurugulam_established
+  examples: |
+    - When was the benchmarking initiative of BIT Gurugulam established?
+    - Can you provide the establishment date of BIT Gurugulam's benchmarking initiative?
+    - Tell me when BIT Gurugulam's benchmarking program was founded.
+    
+- intent: gurugulam_program_objective
+  examples: |
+    - What is the purpose of BIT Gurugulam's Gurugulam program?
+    - Explain the objective of the Gurugulam program at BIT.
+    - What does the Gurugulam program aim to achieve?
+    
+- intent: gurugulam_program_benefits
+  examples: |
+    - How does the Gurugulam program benefit students?
+    - Tell me about the advantages of participating in the Gurugulam program.
+    - Explain how students can gain from the Gurugulam initiative.
+    
+- intent: gurugulam_research_activity
+  examples: |
+    - What is the significance of the Gurugulam initiative in terms of research activity?
+    - Can you elaborate on how Gurugulam contributes to research on campus?
+    - Explain how Gurugulam promotes research at BIT.
+    
+- intent: gurugulam_framework_designers
+  examples: |
+    - Who designed the framework and standard operating procedures for BIT Gurugulam?
+    - Can you tell me who developed the framework for Gurugulam at BIT?
+    - Explain who designed the SOPs for BIT Gurugulam.
+    
+- intent: placement_team_core_belief
+  examples: |
+    - What is the core belief of the training and placement team at your college?
+    - Can you tell me the core philosophy of the placement team?
+    - Explain the fundamental belief of the training and placement team.
+    
+- intent: placement_training_sessions
+  examples: |
+    - What types of training sessions are provided to students by the team?
+    - Tell me about the training programs offered by the placement team.
+    - Explain the different types of training sessions provided by the placement team.
+    
+- intent: placement_students_training
+  examples: |
+    - How are students trained within the placement program?
+    - Can you describe the approach to training students for placements?
+    - Explain the methodology used to train students in the placement program.
+    
+- intent: placement_career_development_focus
+  examples: |
+    - What additional focus does the training and placement team have in terms of career development?
+    - Can you tell me about the career development initiatives of the placement team?
+    - Explain how the placement team supports students in exploring career opportunities.
+    
+- intent: placement_department_environment
+  examples: |
+    - What is the environment like in the Training and Placement department?
+    - Describe the facilities and atmosphere in the placement department.
+    - Explain the ambiance of the Training and Placement department.
+    
+- intent: placement_team_approach
+  examples: |
+    - How does the team approach its work in upgrading students for their next phase of life?
+    - Can you explain the team's strategy for preparing students for their future?
+    - Tell me about the team's approach to enhancing students' readiness for the next phase of life.
+- intent: ssig_meaning
+  examples: |
+    - What is meant by SSIG in Bannari Amman Institute Of Technology?
+    - Define SSIG at BIT.
+    - Explain SSIG.
+    
+- intent: ssig_full_form
+  examples: |
+    - What is the full form of SSIG?
+    - Can you tell me what SSIG stands for?
+    - SSIG acronym meaning?
+    
+- intent: ssig_use
+  examples: |
+    - What is the use of SSIG in BIT?
+    - How is SSIG used by students?
+    - Explain the purpose of SSIG.
+    
+- intent: ssig_target_meaning
+  examples: |
+    - What is meant by SSIG Target?
+    - Define SSIG Target for students.
+    
+- intent: ssig_target_completion
+  examples: |
+    - How are SSIG Targets completed?
+    - What's the process for achieving SSIG Targets?
+    
+- intent: ssig_target_details
+  examples: |
+    - Tell me about the SSIG Targets for First year students.
+    - What are the SSIG Targets for Second year students?
+    - Explain SSIG Targets for different years.
+    
+- intent: tac_meaning
+  examples: |
+    - What is meant by TAC committee in BIT?
+    - Define TAC in Bannari Amman Institute Of Technology.
+    
+- intent: tac_role
+  examples: |
+    - What is the role of TAC in BIT?
+    - Explain the functions of the TAC committee.
+    
+- intent: rp_meaning
+  examples: |
+    - What is meant by RP (Reward Points)?
+    - Define RP in the context of BIT.
+    
+- intent: rp_usage
+  examples: |
+    - What is the usage of Reward Points (RP) at BIT?
+    - How are RP used by students?
+    - Explain the purpose of RP.
+    
+- intent: pt_meaning
+  examples: |
+    - What is meant by PT (Periodical Test) in BIT?
+    - Define PT in Bannari Amman Institute Of Technology.
+    
+- intent: pt_exam_marks
+  examples: |
+    - How many marks for the PT exams are considered for the end semester exam?
+    - What's the weightage of PT marks in the end semester exam?
+    
+- intent: pt_full_marks
+  examples: |
+    - What is the full marks of PT (Periodical Test)?
+    - How are PT exams scored?
+    
+- intent: pt_pass_marks
+  examples: |
+    - How many marks are required to pass PT?
+    - What is the passing criteria for PT at BIT?
+    
+- intent: internal_exam_total_marks
+  examples: |
+    - What is the total marks of the internal exam at BIT?
+    - Explain the marking scheme for internal exams.
+    
+- intent: internal_exam_full_marks
+  examples: |
+    - How can students get full marks in the internal exam?
+    - What's the method for achieving full marks in internals?
+    
+- intent: fa_meaning
+  examples: |
+    - What is meant by FA (Formative Assessment)?
+    - Define FA in the context of BIT.
+    
+- intent: fa_use
+  examples: |
+    - How is FA used by students?
+    - Explain the purpose of Formative Assessment (FA).
+
+

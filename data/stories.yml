@@ -1,0 +1,368 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: bit
+  steps:
+  - intent: acronym_bit
+  - action: utter_acronym_bit
+  - intent: about_bit
+  - action: utter_about_bit
+  - intent: bit_location
+  - action: utter_bit_location
+  - intent: bit_education_features
+  - action: utter_bit_education_features
+  - intent: bit_programs
+  - action: utter_bit_programs
+  
+ 
+- story: BIT Information
+  steps:
+  - intent: bit_reputation
+  - action: utter_bit_reputation
+
+  - intent: bit_achievements
+  - action: utter_bit_achievements
+
+  - intent: bit_contribution
+  - action: utter_bit_contribution
+
+- story: BIT Infrastructure
+  steps:
+  - intent: bit_infrastructure
+  - action: utter_bit_infrastructure
+
+  - intent: bit_learning_resources
+  - action: utter_bit_learning_resources
+
+  - intent: bit_lab_facilities
+  - action: utter_bit_lab_facilities
+
+  - intent: bit_accommodation
+  - action: utter_bit_accommodation
+
+  - intent: bit_additional_facilities
+  - action: utter_bit_additional_facilities
+
+- story: BIT Admissions and Placements
+  steps:
+  - intent: bit_admissions_2023
+  - action: utter_bit_admissions_2023
+
+  - intent: bit_placements_2023
+  - action: utter_bit_placements_2023
+
+  - intent: bit_companies_2023
+  - action: utter_bit_companies_2023
+
+  - intent: bit_highest_package_2023
+  - action: utter_bit_highest_package_2023
+- story: BIT Library and Learning Resources
+  steps:
+  - intent: bit_library_collection
+  - action: utter_bit_library_collection
+
+  - intent: bit_library_resources
+  - action: utter_bit_library_resources
+
+  - intent: bit_library_video_courses
+  - action: utter_bit_library_video_courses
+
+  - intent: bit_library_affiliations
+  - action: utter_bit_library_affiliations
+
+- story: BIT Hostel Accommodations
+  steps:
+  - intent: bit_boys_hostel_capacity
+  - action: utter_bit_boys_hostel_capacity
+
+  - intent: bit_boys_hostel_room_types
+  - action: utter_bit_boys_hostel_room_types
+
+  - intent: bit_girls_hostel_capacity
+  - action: utter_bit_girls_hostel_capacity
+
+  - intent: bit_girls_hostel_room_types
+  - action: utter_bit_girls_hostel_room_types
+
+- story: BIT Engineering Labs
+  steps:
+  - intent: bit_engineering_labs
+  - action: utter_bit_engineering_labs
+
+  - intent: bit_specialized_engineering_labs
+  - action: utter_bit_specialized_engineering_labs
+
+  - intent: bit_communication_electronics_labs
+  - action: utter_bit_communication_electronics_labs
+
+  - intent: bit_mechanical_thermal_labs
+  - action: utter_bit_mechanical_thermal_labs
+
+- story: BIT Sports Facilities
+  steps:
+  - intent: bit_sports_facilities
+  - action: utter_bit_sports_facilities
+
+  - intent: bit_outdoor_sports
+  - action: utter_bit_outdoor_sports
+
+  - intent: bit_indoor_sports
+  - action: utter_bit_indoor_sports
+
+  - intent: bit_athletics_track
+  - action: utter_bit_athletics_track
+
+- story: BIT Campus Information
+  steps:
+  - intent: bit_institution_type
+  - action: utter_bit_institution_type
+
+  - intent: bit_campus_location
+  - action: utter_bit_campus_location
+
+  - intent: bit_campus_design
+  - action: utter_bit_campus_design
+
+  - intent: bit_campus_facilities
+  - action: utter_bit_campus_facilities
+
+  - intent: bit_campus_amenities
+  - action: utter_bit_campus_amenities
+
+- story: BIT Additional Clubs and Services
+  steps:
+  - intent: bit_overseas_education
+  - action: utter_bit_overseas_education
+
+  - intent: bit_code_circle_club
+  - action: utter_bit_code_circle_club
+- story: Community Service Club
+  steps:
+  - intent: club_community_service
+  - action: utter_club_community_service
+
+- story: Entrepreneurship Club
+  steps:
+  - intent: club_entrepreneurship
+  - action: utter_club_entrepreneurship
+
+- story: Fine Arts Club
+  steps:
+  - intent: club_fine_arts
+  - action: utter_club_fine_arts
+
+- story: Green Eco Organisation Club
+  steps:
+  - intent: club_green_eco_organisation
+  - action: utter_club_green_eco_organisation
+
+- story: Great Minds Club
+  steps:
+  - intent: club_great_minds
+  - action: utter_club_great_minds
+
+- story: Makkal Sindhanai Peravai (MSP)
+  steps:
+  - intent: club_makkal_sindhanai_peravai
+  - action: utter_club_makkal_sindhanai_peravai
+
+- story: Language Excellence and Performance (LEAP) Club
+  steps:
+  - intent: club_language_excellence
+  - action: utter_club_language_excellence
+
+- story: Yoga Club
+  steps:
+  - intent: club_yoga
+  - action: utter_club_yoga
+
+- story: Main Blocks in College
+  steps:
+  - intent: main_blocks_college
+  - action: utter_main_blocks_college
+
+- story: Cafeteria Location
+  steps:
+  - intent: cafeteria_location_hostels
+  - action: utter_cafeteria_location_hostels
+
+- story: Mini Cafes Block
+  steps:
+  - intent: mini_cafes_block
+  - action: utter_mini_cafes_block
+
+- story: Gurugulam Establishment Date
+  steps:
+  - intent: bit_gurugulam_established
+  - action: utter_bit_gurugulam_established
+
+- story: Gurugulam Program Objective
+  steps:
+  - intent: gurugulam_program_objective
+  - action: utter_gurugulam_program_objective
+
+- story: Gurugulam Program Benefits
+  steps:
+  - intent: gurugulam_program_benefits
+  - action: utter_gurugulam_program_benefits
+
+- story: Gurugulam Research Activity
+  steps:
+  - intent: gurugulam_research_activity
+  - action: utter_gurugulam_research_activity
+
+- story: Gurugulam Framework Designers
+  steps:
+  - intent: gurugulam_framework_designers
+  - action: utter_gurugulam_framework_designers
+
+- story: Placement Team Core Belief
+  steps:
+  - intent: placement_team_core_belief
+  - action: utter_placement_team_core_belief
+
+- story: Placement Training Sessions
+  steps:
+  - intent: placement_training_sessions
+  - action: utter_placement_training_sessions
+
+- story: Placement Students Training
+  steps:
+  - intent: placement_students_training
+  - action: utter_placement_students_training
+
+- story: Placement Career Development Focus
+  steps:
+  - intent: placement_career_development_focus
+  - action: utter_placement_career_development_focus
+
+- story: Placement Department Environment
+  steps:
+  - intent: placement_department_environment
+  - action: utter_placement_department_environment
+
+- story: Placement Team Approach
+  steps:
+  - intent: placement_team_approach
+  - action: utter_placement_team_approach
+- story: SSIG Meaning
+  steps:
+  - intent: ssig_meaning
+  - action: utter_ssig_meaning
+
+- story: SSIG Full Form
+  steps:
+  - intent: ssig_full_form
+  - action: utter_ssig_full_form
+
+- story: SSIG Use
+  steps:
+  - intent: ssig_use
+  - action: utter_ssig_use
+
+- story: SSIG Target Meaning
+  steps:
+  - intent: ssig_target_meaning
+  - action: utter_ssig_target_meaning
+
+- story: SSIG Target Completion
+  steps:
+  - intent: ssig_target_completion
+  - action: utter_ssig_target_completion
+
+- story: SSIG Target Details
+  steps:
+  - intent: ssig_target_details
+  - action: utter_ssig_target_details
+
+- story: TAC Meaning
+  steps:
+  - intent: tac_meaning
+  - action: utter_tac_meaning
+
+- story: TAC Role
+  steps:
+  - intent: tac_role
+  - action: utter_tac_role
+
+- story: RP Meaning
+  steps:
+  - intent: rp_meaning
+  - action: utter_rp_meaning
+
+- story: RP Usage
+  steps:
+  - intent: rp_usage
+  - action: utter_rp_usage
+
+- story: PT Meaning
+  steps:
+  - intent: pt_meaning
+  - action: utter_pt_meaning
+
+- story: PT Exam Marks
+  steps:
+  - intent: pt_exam_marks
+  - action: utter_pt_exam_marks
+
+- story: PT Full Marks
+  steps:
+  - intent: pt_full_marks
+  - action: utter_pt_full_marks
+
+- story: PT Pass Marks
+  steps:
+  - intent: pt_pass_marks
+  - action: utter_pt_pass_marks
+
+- story: Internal Exam Total Marks
+  steps:
+  - intent: internal_exam_total_marks
+  - action: utter_internal_exam_total_marks
+
+- story: Internal Exam Full Marks
+  steps:
+  - intent: internal_exam_full_marks
+  - action: utter_internal_exam_full_marks
+
+- story: FA Meaning
+  steps:
+  - intent: fa_meaning
+  - action: utter_fa_meaning
+
+- story: FA Use
+  steps:
+  - intent: fa_use
+  - action: utter_fa_use
+- story: bitbot
+  steps:
+  - intent: bot_identity
+  - action: utter_bot_identity

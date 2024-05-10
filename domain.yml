@@ -1,0 +1,346 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - acronym_bit
+  - about_bit
+  - bit_infrastructure
+  - bit_location
+  - bit_education_features
+  - bit_programs
+  - bit_reputation
+  - bit_achievements
+  - bit_contribution
+  - bit_learning_resources
+  - bit_lab_facilities
+  - bit_accommodation
+  - bit_additional_facilities
+  - bit_admissions_2023
+  - bit_placements_2023
+  - bit_companies_2023
+  - bit_highest_package_2023
+  - bit_library_collection
+  - bit_library_resources
+  - bit_library_video_courses
+  - bit_library_affiliations
+  - bit_boys_hostel_capacity
+  - bit_boys_hostel_room_types
+  - bit_girls_hostel_capacity
+  - bit_girls_hostel_room_types
+  - bit_engineering_labs
+  - bit_specialized_engineering_labs
+  - bit_communication_electronics_labs
+  - bit_mechanical_thermal_labs
+  - bit_sports_facilities
+  - bit_outdoor_sports
+  - bit_indoor_sports
+  - bit_athletics_track
+  - bit_institution_type
+  - bit_campus_location
+  - bit_campus_design
+  - bit_campus_facilities
+  - bit_campus_amenities
+  - bit_overseas_education
+  - bit_code_circle_club
+  - club_community_service
+  - club_entrepreneurship
+  - club_fine_arts
+  - club_green_eco_organisation
+  - club_great_minds
+  - club_makkal_sindhanai_peravai
+  - club_language_excellence
+  - club_yoga
+  - main_blocks_college
+  - cafeteria_location_hostels
+  - mini_cafes_block
+  - bit_gurugulam_established
+  - gurugulam_program_objective
+  - gurugulam_program_benefits
+  - gurugulam_research_activity
+  - gurugulam_framework_designers
+  - placement_team_core_belief
+  - placement_training_sessions
+  - placement_students_training
+  - placement_career_development_focus
+  - placement_department_environment
+  - placement_team_approach
+  - ssig_meaning
+  - ssig_full_form
+  - ssig_use
+  - ssig_target_meaning
+  - ssig_target_completion
+  - ssig_target_details
+  - tac_meaning
+  - tac_role
+  - rp_meaning
+  - rp_usage
+  - pt_meaning
+  - pt_exam_marks
+  - pt_full_marks
+  - pt_pass_marks
+  - internal_exam_total_marks
+  - internal_exam_full_marks
+  - fa_meaning
+  - fa_use
+  - bot_identity
+
+# actions:
+#   - action_default_fallback
+
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+  utter_acronym_bit:
+    - text: "BIT stands for Bannari Amman Institute of Technology."
+  utter_iamabot:
+    - text: "Hey , Im Rasa chatbot"
+  utter_cheer_up: 
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_did_that_help:
+    - text: "Did that help you?"
+  utter_happy:
+    - text: "Great, carry on!"
+  utter_bit_library_collection:
+    - text: "Our Library has more than 6000 books"
+  utter_goodbye:
+    - text: "Bye"
+  utter_about_bit:
+    - text: "Bannari Amman Institute of Technology (BIT) is a prominent educational institution known for its quality education and infrastructure."
+  utter_bit_infrastructure:
+    - text: "Bannari Amman Institute of Technology (BIT) boasts modern and well-equipped infrastructure, including state-of-the-art classrooms, labs, libraries, and sports facilities."
+  utter_bit_location:
+    - text: "Bannari Amman Institute of Technology (BIT) is located in Sathyamangalam, Erode."
+  utter_bit_education_features:
+    - text: "Bannari Amman Institute of Technology (BIT) provides a conducive learning environment through experienced faculty, interactive sessions, and opportunities for hands-on learning."
+  utter_bit_programs:
+    - text: "Bannari Amman Institute of Technology (BIT) offers a wide range of academic programs in engineering, technology, and other related fields."
+  utter_bit_reputation:
+    - text: "Bannari Amman Institute of Technology (BIT) has built a strong reputation for delivering quality education and producing skilled graduates in various disciplines."
+  utter_bit_achievements:
+    - text: "Bannari Amman Institute of Technology (BIT) has achieved recognition for its contributions to technical education and has received accolades for student achievements in competitions and projects."
+  utter_bit_contribution:
+    - text: "Bannari Amman Institute of Technology (BIT) plays a significant role in shaping the future by providing quality education, fostering innovation, and producing skilled professionals."
+  utter_bit_learning_resources:
+    - text: "BIT Erode's infrastructure includes a learning center with a sizable collection of books, periodicals, and other study materials."
+
+  utter_bit_lab_facilities:
+    - text: "The Bannari Amman Institute of Technology houses a variety of labs as part of its infrastructure."
+
+  utter_bit_accommodation:
+    - text: "Yes, hostel accommodations are available at the Bannari Amman Institute of Technology for both male and female students."
+
+  utter_bit_additional_facilities:
+    - text: "Bannari Amman Institute of Technology provides access to sports, gym, medical, transportation, and Wi-Fi facilities to its students and faculty."
+
+  utter_bit_admissions_2023:
+    - text: "Yes, BIT is currently accepting admissions for various programs for the year 2023."
+
+  utter_bit_placements_2023:
+    - text: "Yes, Bannari Amman Institute of Technology has released its placements report for 2023."
+
+  utter_bit_companies_2023:
+    - text: "According to the placements report, more than 200 companies have visited the campus for placements in 2023."
+
+  utter_bit_highest_package_2023:
+    - text: "The highest package offered during the 2023 placements at Bannari Amman Institute of Technology was INR 44 LPA."
+
+  utter_bit_library_resources:
+    - text: "The library features 400 National and International Journals, 6,500 CD-ROMs, and a Digital Library housing 6,000 e-journals."
+
+  utter_bit_library_video_courses:
+    - text: "Yes, the library offers 274 NPTEL and 166 NITTTR video courses, providing multimedia learning options."
+
+  utter_bit_library_affiliations:
+    - text: "Bannari Amman Institute of Technology is an Institutional member of the British Council Library in Chennai, DELNET in New Delhi, and the INDEST Consortium in New Delhi."
+
+  utter_bit_boys_hostel_capacity:
+    - text: "The Boys Hostel at Bannari Amman Institute of Technology offers accommodation for 2,500 students in both single occupancy and shared rooms."
+
+  utter_bit_boys_hostel_room_types:
+    - text: "The Boys Hostel provides both single occupancy and shared rooms for students at Bannari Amman Institute of Technology."
+
+  utter_bit_girls_hostel_capacity:
+    - text: "The Girls Hostel at Bannari Amman Institute of Technology offers accommodation for 2,200 students in both single occupancy and shared rooms."
+
+  utter_bit_girls_hostel_room_types:
+    - text: "The Girls Hostel provides both single occupancy and shared rooms for students at Bannari Amman Institute of Technology."
+
+  utter_bit_engineering_labs:
+    - text: "Bannari Amman Institute of Technology offers a range of well-equipped labs including Civil Engineering Lab, Chemistry Lab, Computer Lab, Electrical Lab, Electronics Lab, Language Lab, Mechanical Lab, Physics Lab, Liquid Crystal Research Lab, and more."
+
+  utter_bit_specialized_engineering_labs:
+    - text: "Engineering students at Bannari Amman Institute of Technology have access to specialized labs such as Aerodynamics Lab, Modelling and Simulation Lab, Propulsion Lab, Machine Drawing Lab, Biochemistry Lab, and more."
+
+  utter_bit_communication_electronics_labs:
+    - text: "Yes, there are labs like Digital Communication Lab, Micro Controller Lab, Computer Networks Lab, Dc Machines and Transformers Lab, Ac Machines Lab, and Power Electronics Lab."
+
+  utter_bit_mechanical_thermal_labs:
+    - text: "Bannari Amman Institute of Technology provides facilities such as Sensors and Transducers Lab, Thermal Engineering Lab, Concrete Technology Lab, Fluid Mechanics Lab, and Metallurgy Lab."
+
+  utter_bit_sports_facilities:
+    - text: "Bannari Amman Institute of Technology offers a range of sports facilities, including a Basketball Court, Cricket Ground, Football Ground, Tennis Court, Volleyball Court, Pool Table, 400 M Athletics Track With Kerb, and Handball Court."
+
+  utter_bit_outdoor_sports:
+    - text: "Yes, outdoor sports enthusiasts can enjoy facilities such as Cricket Ground, Football Ground, Tennis Court, Volleyball Court, and Handball Court at Bannari Amman Institute of Technology."
+
+  utter_bit_indoor_sports:
+    - text: "Absolutely, indoor sports enthusiasts have access to facilities like the Basketball Court and Pool Table at Bannari Amman Institute of Technology."
+
+  utter_bit_athletics_track:
+    - text: "Yes, Bannari Amman Institute of Technology provides a 400 M Athletics Track With Kerb for students interested in track and field sports."
+
+  utter_bit_institution_type:
+    - text: "Bannari Amman Institute of Technology is an Autonomous, Self-financing Engineering College approved by AICTE and affiliated with Anna University."
+
+  utter_bit_campus_location:
+    - text: "The campus is situated on the banks of The River Bhavani, offering a natural environment for learning away from the city life."
+
+  utter_bit_campus_design:
+    - text: "The campus is designed with spacious and earth-hugging buildings, landscaped courtyards, and pathways to emphasize business ethics and an excellent center for learning."
+
+  utter_bit_campus_facilities:
+    - text: "The campus hosts various facilities including academic blocks, computer centers, lecture halls, libraries, laboratories, conference halls, staff quarters, hostels, and students' centers."
+
+  utter_bit_campus_amenities:
+    - text: "Yes, the campus features a co-operative store, ATMs from Axis, SBI, and KVB banks, as well as a clinic to attend to the general health of students and staff."
+
+  utter_bit_overseas_education:
+    - text: "The Bureau of Overseas Education conducts seminars and Overseas Education Fairs throughout the year to guide students interested in pursuing higher education both in India and abroad."
+
+  utter_bit_code_circle_club:
+    - text: "The Code Circle Club aims to enhance competitive programming skills among students and prepare them for national and international competitions."
+  utter_club_community_service:
+    - text: "The Community Service (COSE) Club creates opportunities for students to engage in social service, showcase their talents, raise awareness, and contribute to fundraising efforts during times of need."
+
+  utter_club_entrepreneurship:
+    - text: "The Entrepreneurship Club, comprising MBA students, aims to foster the growth of prospective entrepreneurs and investors in new ventures."
+
+  utter_club_fine_arts:
+    - text: "The Fine Arts Club encourages students to develop their artistic skills and express themselves through collaborative projects and activities."
+
+  utter_club_green_eco_organisation:
+    - text: "The GEO Club promotes conservation and sustainable practices among students, encouraging eco-friendly decisions in their future careers."
+
+  utter_club_great_minds:
+    - text: "The Great Minds Club helps students improve various interpersonal skills such as creative thinking and general knowledge, which are beneficial for academic knowledge and placement interviews."
+
+  utter_club_makkal_sindhanai_peravai:
+    - text: "The Makkal Sindhanai Peravai is a service club focused on social activities and community service, aiming to make a positive impact."
+
+  utter_club_language_excellence:
+    - text: "The LEAP Club offers innovative ways for students to improve their command of the English language and expand their linguistic skills."
+
+  utter_club_yoga:
+    - text: "The Yoga Club aims to foster a union between body, mind, and spirit, promoting holistic well-being among students."
+
+  utter_main_blocks_college:
+    - text: "The main blocks in our college are AS block, IB block, SF block, and the Mechanical block."
+
+  utter_cafeteria_location_hostels:
+    - text: "The cafeteria is situated between the boys' hostel and the girls' hostel."
+
+  utter_mini_cafes_block:
+    - text: "The AS front block is where you'll find the Mini cafes."
+
+  utter_bit_gurugulam_established:
+    - text: "The benchmarking initiative of BIT Gurugulam was established in the year 2021."
+
+  utter_gurugulam_program_objective:
+    - text: "The Gurugulam program aims to provide students with hands-on experience in foundation skills under faculty supervision."
+
+  utter_gurugulam_program_benefits:
+    - text: "The program helps students become familiar with both professional and technical skills, offering a learning experience through discovery and enhancing student-faculty interaction."
+
+  utter_gurugulam_research_activity:
+    - text: "The initiative has expanded the level of research activity on campus and aids in identifying and training potential candidates for the industrial culture."
+
+  utter_gurugulam_framework_designers:
+    - text: "Faculty members, trained according to industrial standards comparable to World Skills by companies like Toyota Kirloskar Motor and Lincoln Electric, designed the framework and procedures."
+
+  utter_placement_team_core_belief:
+    - text: "The training and placement team believes in the idea that the true outcome of education becomes evident when careers expand one's horizons."
+
+  utter_placement_training_sessions:
+    - text: "The team offers a variety of training sessions including technical, aptitude, verbal, and soft skill training to enhance students' skills."
+
+  utter_placement_students_training:
+    - text: "Students are individually trained based on their needs and their capacity to grasp and deliver the content effectively."
+
+  utter_placement_career_development_focus:
+    - text: "The team provides training and guidance to help students crack competitive exams and explore a wide range of career possibilities."
+
+  utter_placement_department_environment:
+    - text: "The department provides an inspiring environment with Interview cubicles, Group Discussion halls, and a Guest Lounge, offering students a professional space to learn and prepare."
+
+  utter_placement_team_approach:
+    - text: "A dedicated staff team works passionately with the goal of upgrading students to the next phase of life using all available means."
+
+  utter_ssig_meaning:
+    - text: "SSIG stands for Student Special Interest Group. It is a group where students collaborate to help each other complete their SSIG Targets."
+
+  utter_ssig_full_form:
+    - text: "The full form of SSIG is Student Special Interest Group."
+
+  utter_ssig_use:
+    - text: "In BIT, SSIG is used as a platform for students to work together and achieve their SSIG Targets."
+
+  utter_ssig_target_meaning:
+    - text: "SSIG Targets refer to specific goals that students need to accomplish within the course duration."
+
+  utter_ssig_target_completion:
+    - text: "SSIG Targets are completed with the help of SSIG mentors and fellow students who provide guidance and support."
+
+  utter_ssig_target_details:
+    - text: "The SSIG Targets vary for each year. For example, in the first year, students may have to complete an online course, a technical event, a paper presentation, and a project presentation."
+
+  utter_tac_meaning:
+    - text: "TAC stands for Technical Approval Committee. It plays a role in validating students' work and allowing them to claim Reward Points (RP)."
+
+  utter_tac_role:
+    - text: "The TAC committee at BIT validates students' work, which is essential for claiming Reward Points (RP)."
+
+  utter_rp_meaning:
+    - text: "RP stands for Reward Points. They are used to convert into internal marks at BIT."
+
+  utter_rp_usage:
+    - text: "RP is used to convert into internal marks, which contribute to a student's overall assessment."
+
+  utter_pt_meaning:
+    - text: "PT stands for Periodical Test. It is an internal exam conducted at BIT."
+
+  utter_pt_exam_marks:
+    - text: "PT exams contribute 5 marks in each subject to the end semester exam."
+
+  utter_pt_full_marks:
+    - text: "To get full marks in PT, students need to answer questions totaling 50 marks based on their responses."
+
+  utter_pt_pass_marks:
+    - text: "To pass PT, students need to secure a minimum of 25 marks, which is 50% of the total PT marks."
+
+  utter_internal_exam_total_marks:
+    - text: "The total marks for the internal exam at BIT is 40."
+
+  utter_internal_exam_full_marks:
+    - text: "To achieve full marks in the internal exam, students need to earn required Reward Points (RP) and perform well in PT1 and PT2, each contributing 5 marks."
+
+  utter_fa_meaning:
+    - text: "FA stands for Formative Assessment. It is a method used to help students revise their academic subjects based on previous day's classes."
+
+  utter_fa_use:
+    - text: "FAs are used to facilitate student revision and reinforce their learning based on their daily classes."
+  utter_bot_identity:
+    - text: "I am BITBOT created by Team Uchiha for BITHACKS'23"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+  
